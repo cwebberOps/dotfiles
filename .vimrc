@@ -16,6 +16,10 @@ Bundle "scrooloose/syntastic"
 Bundle "tpope/vim-fugitive"
 Bundle "airblade/vim-gitgutter"
 
+Bundle "smerrill/vagrant-vim"
+Bundle "elzr/vim-json"
+Bundle "csexton/trailertrash.vim"
+
 set number
 filetype plugin indent on
 syntax on

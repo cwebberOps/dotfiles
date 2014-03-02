@@ -45,8 +45,9 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby osx rvm vagrant)
+plugins=(git ruby osx vagrant knife rvm)
 
+export PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -66,6 +67,3 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-
-PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
