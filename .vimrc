@@ -5,6 +5,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'rodjek/vim-puppet'
+Bundle 'godlygeek/tabular'
+Bundle 'Townk/vim-autoclose'
 
 " Chef Hotness
 Bundle "MarcWeber/vim-addon-mw-utils"
