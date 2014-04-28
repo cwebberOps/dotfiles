@@ -47,7 +47,7 @@ DISABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git ruby osx vagrant knife rvm)
 
-export PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+source /Users/cwebber/.rvm/scripts/rvm
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -67,3 +67,5 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
