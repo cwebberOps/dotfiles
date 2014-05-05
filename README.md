@@ -7,6 +7,7 @@ This is most of the foundation needed to build out my current env. Please see be
 - vim
 - zsh
 - iTerm
+- oh-my-zsh
 
 ## Addons for making the above work
 - Fix for tmux and pbcopy
@@ -18,3 +19,5 @@ This is most of the foundation needed to build out my current env. Please see be
 
 ## Getting Started
 I have started on an `init.sh` as a starting place for getting files in place etc
+
+You will need oh-my-zsh in place before running the init
