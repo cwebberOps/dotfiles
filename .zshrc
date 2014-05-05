@@ -45,7 +45,7 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby osx vagrant knife rvm)
+plugins=(gitfast ruby osx vagrant knife rvm)
 
 source /Users/cwebber/.rvm/scripts/rvm
 source $ZSH/oh-my-zsh.sh
@@ -68,4 +68,8 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+PATH=$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/embedded/bin:$PATH
 PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+
+# use teh hubs
+alias git=hub
