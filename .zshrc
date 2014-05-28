@@ -68,8 +68,19 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+export EDITOR=vi
+
 PATH=$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/embedded/bin:$PATH
+PATH=$HOME/bin:$PATH
 PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+
+# Kitchen
+export KITCHEN_YAML=.kitchen.cloud.yml
+
+# Chef Creds
+source ~/.creds/chef_cloud
 
 # use teh hubs
 alias git=hub
+
+alias byword='open -a "/Applications/Byword.app"'
