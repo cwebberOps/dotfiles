@@ -34,3 +34,6 @@ set cursorline
 hi CursorLine cterm=bold
 set laststatus=2
 let g:airline_powerline_fonts = 1
+
+au BufNewFile,BufRead Gemfile set filetype=ruby
+au BufNewFile,BufRead Vagrantfile set filetype=ruby
