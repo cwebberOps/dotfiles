@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION=${PWD##*/}
+SESSION=${PWD##*/}-TK
 PWD=$(pwd)
 tmp=$TMUX
 
