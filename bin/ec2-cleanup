@@ -1,0 +1,3 @@
+#!/bin/sh
+
+for x in $(knife ec2 server list | grep cwebber | awk '{print $1}'); do knife ec2 server delete -y $x; done

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for x in `knife digital_ocean droplet list | grep 'New York' | awk '{print $1}'`; do
+  knife digital_ocean droplet destroy -S $x
+done
