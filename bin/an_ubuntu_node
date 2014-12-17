@@ -1,0 +1,9 @@
+#!/bin/bash
+
+knife digital_ocean droplet create --server-name $1 \
+                                      --image ubuntu-14-04-x64 \
+                                      --location nyc3 \
+                                      --size 1gb \
+                                      --ssh-keys $DIGITAL_OCEAN_SSH_KEY_IDS \
+                                      --ssh-port 22 \
+                                      --bootstrap

@@ -70,7 +70,7 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=vi
 
-PATH=$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/embedded/bin:$PATH
+$(chef shell-init zsh)
 PATH=$HOME/bin:$PATH
 PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 
